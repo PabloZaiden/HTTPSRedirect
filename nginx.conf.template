@@ -2,7 +2,7 @@ events {}
 stream {
   
   map $ssl_preread_server_name $targetBackend {
-    $TARGET_HOST  $TARGET_HOST;
+    $SOURCE_HOST  $TARGET_HOST;
     default example.com;
   }
 

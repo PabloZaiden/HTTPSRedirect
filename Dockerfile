@@ -6,6 +6,7 @@ COPY custom-entrypoint.sh /custom-entrypoint.sh
 
 ENV SOURCE_PORT=443
 ENV TARGET_PORT=443
+ENV SOURCE_HOST=example.com
 ENV TARGET_HOST=google.com
 ENV DNS_SERVER=1.1.1.1
 
